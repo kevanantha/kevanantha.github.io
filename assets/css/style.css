@@ -25,6 +25,11 @@ h2 {
   justify-content: space-between;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -80,12 +85,44 @@ logo:hover {
   padding-top: 8%;
 }
 
+.header a {
+  color: #222831;
+}
+
+.header a:hover {
+  color: #00adb5;
+  transition: 0.15s ease-in-out;
+}
+
 /* About */
 #about {
   background: #eee;
-  min-height: 500px;
+  min-height: 800px;
 }
 
 .about {
   text-align: center;
+  padding-top: 5%;
+}
+
+.about-body {
+  margin-top: 4rem;
+}
+
+.image {
+  /* width: 100%; */
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.image img {
+  border: 3px solid #00adb5;
+  width: 45%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.about-text h3 {
+  padding: 5rem 0;
+  position: relative;
+  top: 4rem;
 }
