@@ -20,6 +20,14 @@ h2 {
   display: flex;
 }
 
+.my-2 {
+  margin: 0 2rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex-between {
   display: flex;
   justify-content: space-between;
@@ -76,7 +84,7 @@ logo:hover {
 
 /* Header */
 #header {
-  min-height: 700px;
+  min-height: 800px;
   background-image: url('/assets/images/cubes.png');
 }
 
