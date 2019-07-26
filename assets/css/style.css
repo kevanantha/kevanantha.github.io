@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.container {
+  margin: 0 15rem;
+}
+
+/* Nav */
+#nav {
+  background: #eee;
+}
+
+.logo {
+  margin: 1rem 0;
+}
+
+.logo a {
+  font-size: 3.5rem;
+  letter-spacing: -12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #222831;
+}
+
+.menu-link {
+  margin: 0 2rem;
+}
+
+.menu-link a {
+  color: #222831;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu-link a:hover,
+logo:hover {
+  color: #00adb5;
+  transition: 0.15s ease-in-out;
+}
