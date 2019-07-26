@@ -31,15 +31,17 @@ body {
 }
 
 .logo {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .logo a {
-  font-size: 3.5rem;
-  letter-spacing: -12px;
+  font-size: 3rem;
+  letter-spacing: -8px;
   font-weight: bold;
   text-decoration: none;
-  color: #222831;
+  color: #00adb5;
+  padding: 0 15px;
+  border: 4px solid #00adb5;
 }
 
 .menu-link {
@@ -56,4 +58,13 @@ body {
 logo:hover {
   color: #00adb5;
   transition: 0.15s ease-in-out;
+}
+
+#header {
+  border: 1px solid brown;
+  min-height: 600px;
+}
+
+.header {
+  text-align: center;
 }
