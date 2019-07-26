@@ -8,6 +8,14 @@ body {
   font-family: 'Space Mono', monospace;
 }
 
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -28,6 +36,7 @@ body {
 /* Nav */
 #nav {
   background: #eee;
+  position: relative;
 }
 
 .logo {
@@ -60,11 +69,23 @@ logo:hover {
   transition: 0.15s ease-in-out;
 }
 
+/* Header */
 #header {
-  border: 1px solid brown;
-  min-height: 600px;
+  min-height: 700px;
+  background-image: url('/assets/images/cubes.png');
 }
 
 .header {
+  text-align: center;
+  padding-top: 8%;
+}
+
+/* About */
+#about {
+  background: #eee;
+  min-height: 500px;
+}
+
+.about {
   text-align: center;
 }
