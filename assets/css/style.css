@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: 'Space Mono', monospace;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -88,7 +88,7 @@ logo:hover {
 
 /* Contact */
 #contact {
-  min-height: 800px;
+  min-height: 200px;
   background-image: url('/assets/images/cubes.png');
 }
 
