@@ -86,22 +86,22 @@ logo:hover {
   transition: 0.15s ease-in-out;
 }
 
-/* Header */
-#header {
+/* Contact */
+#contact {
   min-height: 800px;
   background-image: url('/assets/images/cubes.png');
 }
 
-.header {
+.contact {
   text-align: center;
   padding-top: 8%;
 }
 
-.header a {
+.contact a {
   color: #222831;
 }
 
-.header a:hover {
+.contact a:hover {
   color: #00adb5;
   transition: 0.15s ease-in-out;
 }
