@@ -138,6 +138,40 @@ logo:hover {
 
 /* Portfolio */
 #portfolio {
-  height: 800px;
-  background-image: url('/assets/images/always-grey.png');
+  height: auto;
+  background-image: url('/assets/images/cubes.png');
+}
+
+.portfolio {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio .portfolio-items {
+  width: 15%;
+  min-height: 300px;
+  background: red;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+
+.portfolio-image {
+  position: relative;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 110%;
+  border-radius: 10px;
+}
+
+.portfolio-image img {
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
