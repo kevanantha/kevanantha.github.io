@@ -130,14 +130,16 @@ logo:hover {
 .image img {
   /* border: 3px solid #00adb5; */
   width: 45%;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .about-text h3 {
-  padding: 5rem 0;
+  padding: 0 5rem 0 0;
   position: relative;
   top: 4rem;
-  line-height: 2.25rem;
+  line-height: 2.5rem;
 }
 
 /* Portfolio */
@@ -163,6 +165,7 @@ logo:hover {
   padding: 0;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .portfolio-image {
@@ -211,4 +214,41 @@ logo:hover {
 .portfolio-image-overlay a i:hover {
   color: #00adb5;
   transition: 0.15s ease-in-out;
+}
+
+/* Footer */
+/* Footer */
+footer {
+  height: auto;
+  background: #eee;
+  text-align: center;
+}
+
+footer .footer {
+  padding: 1.25rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
 }
