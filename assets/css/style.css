@@ -24,8 +24,8 @@ h2 {
   display: flex;
 }
 
-.my-2 {
-  margin: 0 2rem;
+.m-2 {
+  margin: 2rem;
 }
 
 .inline-block {
@@ -122,29 +122,25 @@ logo:hover {
 }
 
 .image {
-  /* width: 100%; */
   text-align: center;
   margin-top: 2rem;
 }
 
 .image img {
-  /* border: 3px solid #00adb5; */
   width: 45%;
-  /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
   border-radius: 10px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .about-text h3 {
   padding: 0 5rem 0 0;
-  position: relative;
   top: 4rem;
   line-height: 2.5rem;
 }
 
 /* Portfolio */
 #portfolio {
-  height: 1400px;
+  height: auto;
   background-image: url('/assets/images/cubes.png');
 }
 
@@ -153,11 +149,12 @@ logo:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .portfolio .portfolio-items {
   width: 15%;
-  min-height: 300px;
+  min-height: auto;
   background: #00adb5;
   margin: 0 1rem;
   border-radius: 10px;
@@ -207,8 +204,9 @@ logo:hover {
 }
 
 .portfolio-image-overlay h3 {
+  font-size: 100%;
   color: #eee;
-  margin-bottom: 5rem;
+  margin: 5% 0 20% 0;
 }
 
 .portfolio-image-overlay a i:hover {
@@ -216,7 +214,6 @@ logo:hover {
   transition: 0.15s ease-in-out;
 }
 
-/* Footer */
 /* Footer */
 footer {
   height: auto;
@@ -241,7 +238,6 @@ footer .footer {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-
   position: absolute;
   z-index: 1;
   bottom: 100%;
@@ -251,4 +247,56 @@ footer .footer {
 
 .tooltip:hover .tooltip-text {
   visibility: visible;
+}
+
+@media only screen and (max-width: 1080px) {
+  body {
+    background: blue;
+  }
+
+  .flex-between {
+    display: block;
+    padding-top: 3rem;
+    text-align: center;
+  }
+
+  .logo {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .flex {
+    display: inline-block;
+  }
+
+  .align-items-center {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .menu-link {
+    margin: 1rem;
+  }
+
+  .menu-link a {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .about-text h3 {
+    /* margin-top: 5rem; */
+    margin: 5rem 0;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background: red;
+  }
 }
